@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         // Press Alt+Enter with your caret at the highlighted text to see how
         Document document = Jsoup.connect("https://300.ya.ru/").get();
+        var textfield = 1;
 
     }
 }
